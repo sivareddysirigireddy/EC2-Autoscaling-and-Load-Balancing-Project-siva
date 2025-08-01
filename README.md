@@ -39,10 +39,13 @@ Vpc = Vpc you created
 Configure an Application Load Balancer to distribute incoming traffic across multiple EC2 instances. Define listeners and routing rules.
 
 1. Select ALB
+
    <img width="534" height="562" alt="ALB" src="https://github.com/user-attachments/assets/9d744f97-0802-4788-963e-4afd9b1aafdd" />
-2. ALB Configuration
-3. 
+   
+3. ALB Configuration
+
    <img width="347" height="806" alt="ALB-setup" src="https://github.com/user-attachments/assets/b5292866-cc06-4414-af1e-b2f9f89db070" />
+   
 5. Launch Template Creation:
 Create a launch template to define the configuration settings for the EC2 instances launched by the autoscaling group.
 1. Choose an AMI from the Catalog
