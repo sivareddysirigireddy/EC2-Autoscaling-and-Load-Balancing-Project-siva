@@ -38,17 +38,17 @@ Vpc = Vpc you created
 4. Load Balancer Configuration:
 Configure an Application Load Balancer to distribute incoming traffic across multiple EC2 instances. Define listeners and routing rules.
 1. Select ALB
-<img width="534" height="562" alt="ALB" src="https://github.com/user-attachments/assets/9d744f97-0802-4788-963e-4afd9b1aafdd" />
+   <img width="534" height="562" alt="ALB" src="https://github.com/user-attachments/assets/9d744f97-0802-4788-963e-4afd9b1aafdd" />
 2. ALB Configuration
-<img width="347" height="806" alt="ALB-setup" src="https://github.com/user-attachments/assets/b5292866-cc06-4414-af1e-b2f9f89db070" />
+   <img width="347" height="806" alt="ALB-setup" src="https://github.com/user-attachments/assets/b5292866-cc06-4414-af1e-b2f9f89db070" />
 5. Launch Template Creation:
 Create a launch template to define the configuration settings for the EC2 instances launched by the autoscaling group.
 1. Choose an AMI from the Catalog
-<img width="932" height="806" alt="Launch-temp1" src="https://github.com/user-attachments/assets/d96276f2-0b2f-484a-9d53-2633ee373a38" />
+   <img width="932" height="806" alt="Launch-temp1" src="https://github.com/user-attachments/assets/d96276f2-0b2f-484a-9d53-2633ee373a38" />
 2. Select the preferred instance from the Instance type
-<img width="932" height="806" alt="launch-temp2" src="https://github.com/user-attachments/assets/0ce8bce8-c363-4da4-8b83-58579b3eb7e6" />
+   <img width="932" height="806" alt="launch-temp2" src="https://github.com/user-attachments/assets/0ce8bce8-c363-4da4-8b83-58579b3eb7e6" />
 3. On Advance details scroll to the User data and paste the user data provided.
-<img width="932" height="806" alt="Launch-temp3" src="https://github.com/user-attachments/assets/2de28e60-79d7-47d4-927d-eac219f9ff05" />
+   <img width="932" height="806" alt="Launch-temp3" src="https://github.com/user-attachments/assets/2de28e60-79d7-47d4-927d-eac219f9ff05" />
 6.Autoscaling Group Configuration:
 Configure an autoscaling group to automatically adjust the number of EC2 instances based on metrics such as CPU utilization or network traffic.
 Associate the autoscaling group with the launch template and target group.
